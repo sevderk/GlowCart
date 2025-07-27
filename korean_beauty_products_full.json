@@ -5,6 +5,7 @@
     "description": "A lightweight, watery tint that gives your lips a vivid and fresh color.",
     "price": 7.99,
     "discountPercentage": 10,
+    "rating": 4.5,
     "stock": 25,
     "category": "lip tint",
     "image": "https://i.ibb.co/NZz4mrx/etude-tint.jpg"
@@ -15,6 +16,7 @@
     "description": "A nourishing essence that repairs skin and boosts hydration with 96% snail mucin.",
     "price": 21.50,
     "discountPercentage": 12,
+    "rating": 4.7,
     "stock": 18,
     "category": "essence",
     "image": "https://i.ibb.co/syqRCK2/cosrx-snail.jpg"
@@ -25,6 +27,7 @@
     "description": "A fine, sebum-control powder that keeps your face matte and fresh all day.",
     "price": 9.00,
     "discountPercentage": 8,
+    "rating": 4.3,
     "stock": 30,
     "category": "face powder",
     "image": "https://i.ibb.co/kJnpCqX/innisfree-powder.jpg"
@@ -35,6 +38,7 @@
     "description": "An overnight mask that deeply hydrates and revitalizes tired skin.",
     "price": 28.00,
     "discountPercentage": 15,
+    "rating": 4.8,
     "stock": 20,
     "category": "mask",
     "image": "https://i.ibb.co/tB0rK0h/laneige-mask.jpg"
@@ -45,6 +49,7 @@
     "description": "A multi-functional BB cream with high coverage and sun protection.",
     "price": 23.99,
     "discountPercentage": 18,
+    "rating": 4.6,
     "stock": 12,
     "category": "bb cream",
     "image": "https://i.ibb.co/ZGDMQ4q/missha-bb.jpg"
@@ -55,6 +60,7 @@
     "description": "A sherbet-type balm that melts away makeup and impurities gently.",
     "price": 19.99,
     "discountPercentage": 10,
+    "rating": 4.4,
     "stock": 22,
     "category": "cleanser",
     "image": "https://i.ibb.co/Gc3q3Dc/banila-balm.jpg"
@@ -65,6 +71,7 @@
     "description": "A soft, velvety lip tint with vibrant colors and a weightless finish.",
     "price": 8.99,
     "discountPercentage": 7,
+    "rating": 4.3,
     "stock": 28,
     "category": "lip tint",
     "image": "https://i.ibb.co/Zm4Zr3H/peripera-velvet.jpg"
@@ -75,6 +82,7 @@
     "description": "Soothes redness and evens skin tone with centella asiatica and SPF.",
     "price": 39.00,
     "discountPercentage": 10,
+    "rating": 4.7,
     "stock": 15,
     "category": "moisturizer",
     "image": "https://i.ibb.co/Srv3QnK/drjart-cicapair.jpg"
@@ -85,6 +93,7 @@
     "description": "A brightening cleanser with rice water that leaves skin soft and radiant.",
     "price": 13.50,
     "discountPercentage": 6,
+    "rating": 4.2,
     "stock": 26,
     "category": "cleanser",
     "image": "https://i.ibb.co/wzjqRVk/face-shop-rice.jpg"
@@ -95,6 +104,7 @@
     "description": "A multi-use soothing gel with 92% California aloe vera.",
     "price": 6.00,
     "discountPercentage": 5,
+    "rating": 4.4,
     "stock": 40,
     "category": "moisturizer",
     "image": "https://i.ibb.co/d0tMsc0/nature-aloe.jpg"
@@ -105,6 +115,7 @@
     "description": "A bouncy jelly BB cream with a refreshing water-based formula.",
     "price": 16.75,
     "discountPercentage": 11,
+    "rating": 4.5,
     "stock": 17,
     "category": "bb cream",
     "image": "https://i.ibb.co/DVHH2fq/holika-jelly.jpg"
@@ -115,6 +126,7 @@
     "description": "Brightening sheet mask with lemon extract for glowing skin.",
     "price": 3.00,
     "discountPercentage": 0,
+    "rating": 4.1,
     "stock": 50,
     "category": "mask",
     "image": "https://i.ibb.co/BBYHswM/tonymoly-lemon.jpg"
@@ -125,6 +137,7 @@
     "description": "An easy-to-use eyebrow pencil with natural colors and spoolie brush.",
     "price": 5.50,
     "discountPercentage": 5,
+    "rating": 4.3,
     "stock": 35,
     "category": "eyebrow",
     "image": "https://i.ibb.co/NV0FYcd/etude-eyebrow.jpg"
@@ -135,6 +148,7 @@
     "description": "A wash-off mask with black sugar granules for smooth exfoliated skin.",
     "price": 12.99,
     "discountPercentage": 9,
+    "rating": 4.4,
     "stock": 16,
     "category": "mask",
     "image": "https://i.ibb.co/b5Fr6n3/skinfood-sugar.jpg"
@@ -145,6 +159,7 @@
     "description": "A natural balm cleanser that melts into oil and removes heavy makeup.",
     "price": 18.90,
     "discountPercentage": 12,
+    "rating": 4.6,
     "stock": 19,
     "category": "cleanser",
     "image": "https://i.ibb.co/pRYwMYJ/heimish-balm.jpg"
@@ -155,6 +170,7 @@
     "description": "A trendy matte lip tint with smooth velvet finish from StyleNanda.",
     "price": 15.99,
     "discountPercentage": 10,
+    "rating": 4.5,
     "stock": 21,
     "category": "lip tint",
     "image": "https://i.ibb.co/GnLytbK/3ce-tint.jpg"
@@ -165,6 +181,7 @@
     "description": "A deeply hydrating toner with 5 types of hyaluronic acid.",
     "price": 14.50,
     "discountPercentage": 6,
+    "rating": 4.4,
     "stock": 24,
     "category": "toner",
     "image": "https://i.ibb.co/tbg0Kp6/isntree-toner.jpg"
@@ -175,6 +192,7 @@
     "description": "A brightening and soothing serum with propolis and niacinamide.",
     "price": 17.80,
     "discountPercentage": 14,
+    "rating": 4.6,
     "stock": 14,
     "category": "serum",
     "image": "https://i.ibb.co/McbQbJg/joseon-serum.jpg"
@@ -185,6 +203,7 @@
     "description": "An essence that boosts skin vitality with 93% fermented ingredients.",
     "price": 30.00,
     "discountPercentage": 13,
+    "rating": 4.7,
     "stock": 11,
     "category": "essence",
     "image": "https://i.ibb.co/x25Ff1f/neogen-essence.jpg"
@@ -195,8 +214,10 @@
     "description": "A gentle toner that balances pH and preps skin for skincare routine.",
     "price": 22.00,
     "discountPercentage": 9,
+    "rating": 4.5,
     "stock": 20,
     "category": "toner",
     "image": "https://i.ibb.co/qRR4rgc/klairs-toner.jpg"
   }
 ]
+
