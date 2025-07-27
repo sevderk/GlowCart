@@ -1,6 +1,114 @@
 [
   {
     "id": 1,
+    "title": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+",
+    "description": "Light sunscreen that moisturizes and protects without leaving a white cast.",
+    "price": 18.00,
+    "discountPercentage": 5,
+    "rating": 4.7,
+    "stock": 50,
+    "brand": "Beauty of Joseon",
+    "category": "sunscreen",
+    "image": "https://zukhrufskin.pk/wp-content/uploads/2022/12/beauty-of-joseon-sunscreen-1.png"
+  },
+  {
+    "id": 2,
+    "title": "ROUND LAB Birch Juice Moisturizing Sunscreen",
+    "description": "Hydrating and lightweight sunscreen formulated with birch sap.",
+    "price": 17.50,
+    "discountPercentage": 7,
+    "rating": 4.6,
+    "stock": 40,
+    "brand": "ROUND LAB",
+    "category": "sunscreen",
+    "image": "https://roundlab.com/cdn/shop/files/11_ba12ceb0-59b1-4394-8d6b-ab96b68232df.png?v=1750803573&width=823"
+  },
+  {
+    "id": 3,
+    "title": "ROM&ND The Juicy Lasting Tint",
+    "description": "Highly pigmented lip tint with a soft matte finish and juicy feel.",
+    "price": 9.00,
+    "discountPercentage": 10,
+    "rating": 4.5,
+    "stock": 60,
+    "brand": "ROM&ND",
+    "category": "lip tint",
+    "image": "https://roundlab.com/cdn/shop/files/11_ba12ceb0-59b1-4394-8d6b-ab96b68232df.png?v=1750803573&width=823"
+  },
+  {
+    "id": 4,
+    "title": "MEDIHEAL Madecassoside Essential Mask",
+    "description": "Soothing and repairing sheet mask with madecassoside extract.",
+    "price": 2.50,
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 120,
+    "brand": "MEDIHEAL",
+    "category": "sheet mask",
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1326/bd84e525-5f20-4af4-8653-96232017863a.png?RS=1500x1500&AR=0&SF=webp&QT=80"
+  },
+  {
+    "id": 5,
+    "title": "BIODANCE Bio‑Collagen Real Deep Mask Sheet",
+    "description": "Hydrogel collagen mask for deep hydration and firming.",
+    "price": 5.00,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 80,
+    "brand": "BIODANCE",
+    "category": "sheet mask",
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1988/e6321bb0-9f79-41fd-a9f5-a588448e2102.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
+  },
+  {
+    "id": 6,
+    "title": "Manyo Factory Pure Cleansing Oil",
+    "description": "Gentle cleansing oil that removes makeup without irritating skin.",
+    "price": 23.00,
+    "discountPercentage": 12,
+    "rating": 4.6,
+    "stock": 45,
+    "brand": "Manyo Factory",
+    "category": "cleansing oil",
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1006/4d20a316-8368-47e0-a5d3-2c7884861463.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
+  },
+  {
+    "id": 7,
+    "title": "Torriden Dive-In Low Molecule Hyaluronic Acid Serum",
+    "description": "Moisturizing serum with low molecular hyaluronic acid for better absorption.",
+    "price": 28.00,
+    "discountPercentage": 14,
+    "rating": 4.7,
+    "stock": 35,
+    "brand": "Torriden",
+    "category": "serum",
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1974/e8a52989-d1e4-4f16-9a19-75ed07f7d03e.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
+  },
+  {
+    "id": 8,
+    "title": "SKINFOOD Carrot Carotene Calming Water Pad",
+    "description": "Toner pads soaked with carrot extract to soothe and hydrate skin.",
+    "price": 12.00,
+    "discountPercentage": 8,
+    "rating": 4.5,
+    "stock": 50,
+    "brand": "SKINFOOD",
+    "category": "toner pad",
+    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/929132/XVaX5ZDqTHEJmaS1WWcw.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Goodal Green Tangerine Vita C Brightening Eye Cream",
+    "description": "Vitamin C eye cream that brightens and reduces dark circles.",
+    "price": 20.00,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 30,
+    "brand": "Goodal",
+    "category": "eye cream",
+    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/07/1799/ac1e3ad0-f311-47c7-97cc-240cd4edb7a0.jpg"
+  },
+  {
+    "id": 10,
     "title": "Etude House Dear Darling Water Tint",
     "description": "A lightweight, watery tint that gives your lips a vivid and fresh color.",
     "price": 7.99,
@@ -8,10 +116,10 @@
     "rating": 4.5,
     "stock": 25,
     "category": "lip tint",
-    "image": "https://m.media-amazon.com/images/I/51ZNuXST-JL._SL1000_.jpg"
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1529/2dfcfc9c-070d-4a45-92c4-474ddba202e4.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
-    "id": 2,
+    "id": 11,
     "title": "COSRX Advanced Snail 96 Mucin Power Essence",
     "description": "A nourishing essence that repairs skin and boosts hydration with 96% snail mucin.",
     "price": 21.50,
@@ -19,21 +127,21 @@
     "rating": 4.7,
     "stock": 18,
     "category": "essence",
-    "image": "https://i.ibb.co/syqRCK2/cosrx-snail.jpg"
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1476/2eefb622-e235-4ac7-b5c0-6da4eaec3fcb.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
-    "id": 3,
-    "title": "Innisfree No-Sebum Mineral Powder",
+    "id": 12,
+    "title": "Innisfree No-Sebum AC Powder",
     "description": "A fine, sebum-control powder that keeps your face matte and fresh all day.",
     "price": 9.00,
     "discountPercentage": 8,
     "rating": 4.3,
     "stock": 30,
     "category": "face powder",
-    "image": "https://i.ibb.co/kJnpCqX/innisfree-powder.jpg"
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1560/9b869634-cb00-4a75-bf40-6c53c8111b3d.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
-    "id": 4,
+    "id": 13,
     "title": "Laneige Water Sleeping Mask",
     "description": "An overnight mask that deeply hydrates and revitalizes tired skin.",
     "price": 28.00,
@@ -41,21 +149,10 @@
     "rating": 4.8,
     "stock": 20,
     "category": "mask",
-    "image": "https://i.ibb.co/tB0rK0h/laneige-mask.jpg"
+    "image": "https://skintheory.co.za/wp-content/uploads/2022/11/LANEIGE-Water-Sleeping-Mask-EX-70ml-Reel-1.jpg"
   },
   {
-    "id": 5,
-    "title": "MISSHA Perfect Cover BB Cream SPF42 PA+++",
-    "description": "A multi-functional BB cream with high coverage and sun protection.",
-    "price": 23.99,
-    "discountPercentage": 18,
-    "rating": 4.6,
-    "stock": 12,
-    "category": "bb cream",
-    "image": "https://i.ibb.co/ZGDMQ4q/missha-bb.jpg"
-  },
-  {
-    "id": 6,
+    "id": 14,
     "title": "Banila Co Clean It Zero Cleansing Balm",
     "description": "A sherbet-type balm that melts away makeup and impurities gently.",
     "price": 19.99,
@@ -63,10 +160,10 @@
     "rating": 4.4,
     "stock": 22,
     "category": "cleanser",
-    "image": "https://i.ibb.co/Gc3q3Dc/banila-balm.jpg"
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1603/9902e52a-08ab-4216-8de1-721417b5aac5.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
-    "id": 7,
+    "id": 15,
     "title": "Peripera Ink Airy Velvet",
     "description": "A soft, velvety lip tint with vibrant colors and a weightless finish.",
     "price": 8.99,
@@ -74,21 +171,10 @@
     "rating": 4.3,
     "stock": 28,
     "category": "lip tint",
-    "image": "https://i.ibb.co/Zm4Zr3H/peripera-velvet.jpg"
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1223/164af252-5ce5-416f-a848-9669612c3627.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
-    "id": 8,
-    "title": "Dr.Jart+ Cicapair Tiger Grass Color Correcting Treatment",
-    "description": "Soothes redness and evens skin tone with centella asiatica and SPF.",
-    "price": 39.00,
-    "discountPercentage": 10,
-    "rating": 4.7,
-    "stock": 15,
-    "category": "moisturizer",
-    "image": "https://i.ibb.co/Srv3QnK/drjart-cicapair.jpg"
-  },
-  {
-    "id": 9,
+    "id": 16,
     "title": "The Face Shop Rice Water Bright Cleansing Foam",
     "description": "A brightening cleanser with rice water that leaves skin soft and radiant.",
     "price": 13.50,
@@ -96,10 +182,10 @@
     "rating": 4.2,
     "stock": 26,
     "category": "cleanser",
-    "image": "https://i.ibb.co/wzjqRVk/face-shop-rice.jpg"
+    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/1125057/ktj7978MJqxg4mB2FLVNdg.jpg"
   },
   {
-    "id": 10,
+    "id": 17,
     "title": "Nature Republic Soothing & Moisture Aloe Vera Gel",
     "description": "A multi-use soothing gel with 92% California aloe vera.",
     "price": 6.00,
@@ -107,76 +193,10 @@
     "rating": 4.4,
     "stock": 40,
     "category": "moisturizer",
-    "image": "https://i.ibb.co/d0tMsc0/nature-aloe.jpg"
+    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/3390/aloe-vera3.png"
   },
   {
-    "id": 11,
-    "title": "Holika Holika Aqua Petit Jelly BB",
-    "description": "A bouncy jelly BB cream with a refreshing water-based formula.",
-    "price": 16.75,
-    "discountPercentage": 11,
-    "rating": 4.5,
-    "stock": 17,
-    "category": "bb cream",
-    "image": "https://i.ibb.co/DVHH2fq/holika-jelly.jpg"
-  },
-  {
-    "id": 12,
-    "title": "Tony Moly I'm Real Sheet Mask (Lemon)",
-    "description": "Brightening sheet mask with lemon extract for glowing skin.",
-    "price": 3.00,
-    "discountPercentage": 0,
-    "rating": 4.1,
-    "stock": 50,
-    "category": "mask",
-    "image": "https://i.ibb.co/BBYHswM/tonymoly-lemon.jpg"
-  },
-  {
-    "id": 13,
-    "title": "Etude House Drawing Eye Brow",
-    "description": "An easy-to-use eyebrow pencil with natural colors and spoolie brush.",
-    "price": 5.50,
-    "discountPercentage": 5,
-    "rating": 4.3,
-    "stock": 35,
-    "category": "eyebrow",
-    "image": "https://i.ibb.co/NV0FYcd/etude-eyebrow.jpg"
-  },
-  {
-    "id": 14,
-    "title": "Skinfood Black Sugar Mask Wash Off",
-    "description": "A wash-off mask with black sugar granules for smooth exfoliated skin.",
-    "price": 12.99,
-    "discountPercentage": 9,
-    "rating": 4.4,
-    "stock": 16,
-    "category": "mask",
-    "image": "https://i.ibb.co/b5Fr6n3/skinfood-sugar.jpg"
-  },
-  {
-    "id": 15,
-    "title": "Heimish All Clean Balm",
-    "description": "A natural balm cleanser that melts into oil and removes heavy makeup.",
-    "price": 18.90,
-    "discountPercentage": 12,
-    "rating": 4.6,
-    "stock": 19,
-    "category": "cleanser",
-    "image": "https://i.ibb.co/pRYwMYJ/heimish-balm.jpg"
-  },
-  {
-    "id": 16,
-    "title": "3CE Velvet Lip Tint",
-    "description": "A trendy matte lip tint with smooth velvet finish from StyleNanda.",
-    "price": 15.99,
-    "discountPercentage": 10,
-    "rating": 4.5,
-    "stock": 21,
-    "category": "lip tint",
-    "image": "https://i.ibb.co/GnLytbK/3ce-tint.jpg"
-  },
-  {
-    "id": 17,
+    "id": 18,
     "title": "Isntree Hyaluronic Acid Toner",
     "description": "A deeply hydrating toner with 5 types of hyaluronic acid.",
     "price": 14.50,
@@ -184,10 +204,10 @@
     "rating": 4.4,
     "stock": 24,
     "category": "toner",
-    "image": "https://i.ibb.co/tbg0Kp6/isntree-toner.jpg"
+    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/1c/3100/cfcbc620-6d15-422b-a14c-4aba2eda4e6b.jpg"
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "Beauty of Joseon Glow Serum",
     "description": "A brightening and soothing serum with propolis and niacinamide.",
     "price": 17.80,
@@ -195,29 +215,7 @@
     "rating": 4.6,
     "stock": 14,
     "category": "serum",
-    "image": "https://i.ibb.co/McbQbJg/joseon-serum.jpg"
+    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/10/1040/2796c5fa-335b-4881-b60a-09613f856579.jpg"
   },
-  {
-    "id": 19,
-    "title": "Neogen Real Ferment Micro Essence",
-    "description": "An essence that boosts skin vitality with 93% fermented ingredients.",
-    "price": 30.00,
-    "discountPercentage": 13,
-    "rating": 4.7,
-    "stock": 11,
-    "category": "essence",
-    "image": "https://i.ibb.co/x25Ff1f/neogen-essence.jpg"
-  },
-  {
-    "id": 20,
-    "title": "Klairs Supple Preparation Facial Toner",
-    "description": "A gentle toner that balances pH and preps skin for skincare routine.",
-    "price": 22.00,
-    "discountPercentage": 9,
-    "rating": 4.5,
-    "stock": 20,
-    "category": "toner",
-    "image": "https://i.ibb.co/qRR4rgc/klairs-toner.jpg"
-  }
 ]
 
