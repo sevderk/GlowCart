@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.app-container {
+  @apply min-h-screen bg-gray-100 p-4;
+}
+
+.title {
+  @apply text-3xl font-bold text-center text-gray-800 mb-6;
+}
+
+.search-input {
+  @apply block mx-auto mb-6 w-full max-w-md px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.loading-text,
+.no-results-text {
+  @apply text-center text-lg text-gray-500;
+}
+
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6;
+}
+
+@keyframes fade-in-out {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  10%, 90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-out {
+  animation: fade-in-out 3s ease-in-out;
+}
+
+@utility text-gradient {
+  @apply bg-linear-to-r from-[#FF00FF] to-[#FF0099] bg-clip-text text-transparent;
+}
+
+
+
