@@ -53,6 +53,7 @@ Product data is sourced and formatted for demo purposes only.
 git clone https://github.com/sevderk/GlowCart.git
 cd GlowCart
 npm install
+npm install axios
 npm run dev
 
 
