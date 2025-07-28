@@ -36,6 +36,13 @@ GlowCart is a beautifully designed shopping cart web application built with Reac
 
 ---
 
+## 🌟 Credits
+
+Made with ❤️ by [@sevderk](https://github.com/sevderk)  
+Product data is sourced and formatted for demo purposes only.
+
+---
+
 ## 🚀 Getting Started
 
 ```bash
@@ -44,12 +51,9 @@ cd GlowCart
 npm install
 npm run dev
 
----
 
-## 🌟 Credits
 
-Made with ❤️ by [@sevderk](https://github.com/sevderk)  
-Product data is sourced and formatted for demo purposes only.  
+
 
 
 
