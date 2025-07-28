@@ -2,7 +2,7 @@
 
 
 
-# 🌸 Glow✨Cart — K-Beauty Shopping Experience with React
+# Glow✨Cart — K-Beauty Shopping Experience with React
 GlowCart is a beautifully designed shopping cart web application built with React and Tailwind CSS. It features a curated list of Korean skincare and makeup products with a glowing user interface, live search, dynamic cart management, and a modern mobile-responsive design.
 
 ---
