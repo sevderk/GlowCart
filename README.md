@@ -18,14 +18,10 @@ GlowCart is a beautifully designed shopping cart web application built with Reac
 
 ## 📸 Screenshots
 
-
 <img width="1920" height="1080" alt="Screenshot 2025-07-28 045603" src="https://github.com/user-attachments/assets/c5971b3d-8147-4160-a634-323d1516e72d" />
 <img width="1920" height="1080" alt="Screenshot 2025-07-28 052458" src="https://github.com/user-attachments/assets/8dfdaf40-d0cc-47fa-92db-5bcbde580bbb" />
 <img width="1920" height="1080" alt="Screenshot 2025-07-28 051826" src="https://github.com/user-attachments/assets/cc89be33-5a84-44ca-9f10-f673c0f3c691" />
 <img width="1920" height="1080" alt="Screenshot 2025-07-28 051841" src="https://github.com/user-attachments/assets/bf99a6aa-7e36-4548-90bd-862314dc410a" />
-
-
-
 
 ---
 
@@ -42,7 +38,6 @@ GlowCart is a beautifully designed shopping cart web application built with Reac
 
 ## 🚀 Getting Started
 
-1. **Clone the repository:**
 ```bash
 git clone https://github.com/yourusername/GlowCart.git
 cd GlowCart
@@ -51,9 +46,12 @@ npm run dev
 
 ---
 
-🌟 Credits
-Made with love by @sevderk 💫
-Product data sourced and formatted for demo purposes.
+## 🌟 Credits
+
+Made with ❤️ by [@sevderk](https://github.com/sevderk)  
+Product data is sourced and formatted for demo purposes only.  
+
+
 
 
 
