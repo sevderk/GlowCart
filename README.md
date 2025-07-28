@@ -42,7 +42,7 @@ It offers users a smooth shopping experience with product search, detailed produ
 
 ## 🌟 Credits
 
-Made with 🩷 by [@sevderk](https://github.com/sevderk)  
+Made with 💖 by [@sevderk](https://github.com/sevderk)  
 Product data is sourced and formatted for demo purposes only.
 
 ---
@@ -50,7 +50,7 @@ Product data is sourced and formatted for demo purposes only.
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/GlowCart.git
+git clone https://github.com/sevderk/GlowCart.git
 cd GlowCart
 npm install
 npm run dev
