@@ -75,11 +75,10 @@ Currently a Computer Engineering student passionate about frontend development a
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235301" src="https://github.com/user-attachments/assets/381526a3-eb17-4cba-a0bd-e16a67531f37" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235314" src="https://github.com/user-attachments/assets/4b4d3c07-1897-4ad9-9068-9d700a53fba2" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235511" src="https://github.com/user-attachments/assets/2ef8fc3f-ffd9-4107-9e42-11b58f6e4bce" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-04 000515" src="https://github.com/user-attachments/assets/bc776f95-6cfa-45ae-9d82-43ead7f49d52" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235522" src="https://github.com/user-attachments/assets/f3d8a453-601a-4c55-a37b-41f47e2957df" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235557" src="https://github.com/user-attachments/assets/0c8ce8f9-8bba-4b4f-9147-cdc05f00c2bc" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235642" src="https://github.com/user-attachments/assets/55e12c20-05fe-4f6f-9ee0-e9e28706cb9c" />
-
-
 
 
 ## 📃 License
