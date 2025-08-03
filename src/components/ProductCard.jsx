@@ -1,22 +1,20 @@
-import React, { useState } from 'react'; 
-import { useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';    
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { FaHeart, FaRegHeart } from 'react-icons/fa';
+import { COLORS } from '../constants/colors';
 
-
-const ProductCard = ({ product, onAddtoCart }) => {
-  const [buttonState, setButtonState] = useState('default'); // default, added, goToCart
-  const navigate = useNavigate();
-
+const ProductCard = ({ product, onAddtoCart, favoritesVM, onToggleFavorite }) => {
+  const { addToFavorites, removeFromFavorites, isFavorite } = favoritesVM;
+  const [buttonState, setButtonState] = useState('default');
   const timeoutRef = useRef(null);
+  const navigate = useNavigate();
 
   const handleClick = () => {
     if (buttonState === 'default') {
       onAddtoCart(product);
       setButtonState('added');
-
       timeoutRef.current = setTimeout(() => {
         setButtonState('goToCart');
-
         timeoutRef.current = setTimeout(() => {
           setButtonState('default');
         }, 1500);
@@ -27,44 +25,112 @@ const ProductCard = ({ product, onAddtoCart }) => {
     }
   };
 
-  // Component unmount olduğunda timeoutları temizle
   useEffect(() => {
     return () => clearTimeout(timeoutRef.current);
   }, []);
 
-  let buttonText = 'Add to Cart';
-  let buttonStyle = 'bg-[#FF0099] hover:bg-[#990066]';
+  const handleToggleFavorite = () => {
+    const isFav = isFavorite(product.id);
+    if (isFav) {
+      removeFromFavorites(product.id);
+    } else {
+      addToFavorites(product);
+    }
+    if (onToggleFavorite) {
+      onToggleFavorite(product, !isFav);
+    }
+  };
 
-  if (buttonState === 'added') {
-    buttonText = 'Added';
-    buttonStyle = 'bg-green-600 hover:bg-green-700';
-  } else if (buttonState === 'goToCart') {
-    buttonText = 'Go to Cart';
-    buttonStyle = 'bg-blue-600 hover:bg-blue-700';
-  }
+  const buttonText =
+    buttonState === 'default' ? 'Add to Cart' :
+    buttonState === 'added' ? 'Added' :
+    'Go to Cart';
 
+  const buttonStyle =
+    buttonState === 'default'
+      ? `bg-[${COLORS.primary}] hover:bg-[#e60080]`
+      : buttonState === 'added'
+      ? 'bg-green-600 hover:bg-green-700'
+      : 'bg-blue-600 hover:bg-blue-700';
 
   return (
-    <div className="flex flex-col justify-between h-full w-full max-w-full bg-gray-50 to-white rounded-lg border border-pink-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:scale-105 transition-transform duration-300 hover:bg-indigo-200 transition">
-      <img className="p-8 rounded-t-lg w-full h-[400px] object-contain" src={product.image} alt={product.title} />
+    <div
+      className="relative flex flex-col justify-between h-full w-full rounded-lg border shadow-md transition-transform duration-300 cursor-pointer hover:shadow-xl hover:scale-[1.03]"
+      style={{
+        backgroundColor: COLORS.lightBg,
+        borderColor: COLORS.borderLight,
+        padding: '12px',
+      }}
+      onClick={() => navigate(`/product/${product.id}`)}
+    >
+      {/* Favorite */}
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          handleToggleFavorite();
+        }}
+        className="absolute top-3 right-3 text-xl"
+        style={{
+          color: isFavorite(product.id)
+            ? COLORS.primary
+            : COLORS.textLightGray,
+        }}
+        title="Toggle Favorite"
+      >
+        {isFavorite(product.id) ? <FaHeart /> : <FaRegHeart />}
+      </button>
 
-      <div className="px-5 pb-5 flex flex-col justify-between flex-grow">
-        <p className="text-sm text-gray-400 dark:text-gray-400">{product.brand}</p>
-        <h5 className="text-xl font-semibold tracking-tight text-gray-800 dark:text-white">{product.title}</h5>
-        <p className="mt-2 text-gray-600 dark:text-gray-200">{product.description}</p>
-        <div className="mt-3 flex justify-between text-m text-gray-600 dark:text-gray-400">
-          <span>⭐{product.rating}</span>
-          <span className="text-emerald-600">Stock: {product.stock}</span>
-          </div>
-          <div className="flex justify-between items-center mt-5">
-          <span className=" text-3xl font-semibold text-gray-900 px-2 py-1 rounded">${product.price}</span>
+      {/* Image */}
+      <img
+        className="p-4 rounded-t-lg w-full h-[200px] object-contain transition-transform duration-200 hover:scale-105"
+        src={product.image}
+        alt={product.title}
+      />
+
+      {/* Info */}
+      <div className="px-3 pb-4 flex flex-col justify-between flex-grow">
+        <p className="text-xs" style={{ color: COLORS.textGray }}>
+          {product.brand}
+        </p>
+        <h5
+          className="text-lg font-semibold tracking-tight"
+          style={{ color: COLORS.textBase }}
+        >
+          {product.title}
+        </h5>
+
+        {product.discountPercentage > 0 && (
+          <p className="mt-1 text-sm font-medium text-pink-600">
+            Save {product.discountPercentage}%
+          </p>
+        )}
+
+        <div
+          className="mt-3 flex justify-between text-sm"
+          style={{ color: COLORS.textDarkGray }}
+        >
+          <span>⭐ {product.rating}</span>
+          <span className="text-green-600">Stock: {product.stock}</span>
+        </div>
+
+        {/* Price + Button */}
+        <div className="flex justify-between items-center mt-4">
+          <span
+            className="text-xl font-semibold"
+            style={{ color: COLORS.textBase }}
+          >
+            ${product.price}
+          </span>
           <button
-          onClick={handleClick}
-            className={`text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center transition ${buttonStyle}`}
+            onClick={(e) => {
+              e.stopPropagation();
+              handleClick();
+            }}
+            className={`text-white font-medium rounded-lg text-sm px-4 py-2 transition duration-300 ${buttonStyle}`}
           >
             {buttonText}
-             </button>
-          </div>
+          </button>
+        </div>
       </div>
     </div>
   );

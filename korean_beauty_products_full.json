@@ -8,14 +8,8 @@
     "rating": 4.7,
     "stock": 50,
     "brand": "Beauty of Joseon",
-    "mainCategory": "suncare",
     "category": "sunscreen",
-    "image": "https://zukhrufskin.pk/wp-content/uploads/2022/12/beauty-of-joseon-sunscreen-1.png",
-     "comments": [
-      "Feels so light on my skin and no white cast at all!",
-      "Perfect under makeup, non-greasy.",
-      "My go-to daily sunscreen now."
-    ]
+    "image": "https://zukhrufskin.pk/wp-content/uploads/2022/12/beauty-of-joseon-sunscreen-1.png"
   },
   {
     "id": 2,
@@ -26,14 +20,8 @@
     "rating": 4.6,
     "stock": 40,
     "brand": "ROUND LAB",
-    "mainCategory": "suncare",
     "category": "sunscreen",
-    "image": "https://roundlab.com/cdn/shop/files/Birch_Juice_Moisturizing_Sunscreen_UVLock_SPF_45_Broad_Spectrum_Round_Lab_2_d7287011-9c6c-4326-b273-9b3382c7acad.png?v=1747958301&width=823",
-    "comments": [
-      "Love the hydration this gives!",
-      "Smells fresh and no irritation.",
-      "Wish it came in a bigger size."
-    ]
+    "image": "https://roundlab.com/cdn/shop/files/Birch_Juice_Moisturizing_Sunscreen_UVLock_SPF_45_Broad_Spectrum_Round_Lab_2_d7287011-9c6c-4326-b273-9b3382c7acad.png?v=1747958301&width=823"
   },
   {
     "id": 3,
@@ -44,14 +32,8 @@
     "rating": 4.5,
     "stock": 60,
     "brand": "ROM&ND",
-    "mainCategory": "makeup",
     "category": "lip tint",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1795/7c33ca13-5ac5-4d9f-98c3-d943aa1cc9a8.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Stays on for hours and looks juicy.",
-      "Beautiful colors but a bit drying over time.",
-      "Perfect for a soft daily look."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1795/7c33ca13-5ac5-4d9f-98c3-d943aa1cc9a8.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 4,
@@ -62,14 +44,8 @@
     "rating": 4.8,
     "stock": 120,
     "brand": "MEDIHEAL",
-    "mainCategory": "skincare",
     "category": "sheet mask",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1326/bd84e525-5f20-4af4-8653-96232017863a.png?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "So calming after a long day!",
-      "My skin feels super soft after using this.",
-      "Best mask I've tried in a while."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1326/bd84e525-5f20-4af4-8653-96232017863a.png?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 5,
@@ -80,14 +56,8 @@
     "rating": 4.7,
     "stock": 80,
     "brand": "BIODANCE",
-    "mainCategory": "skincare",
     "category": "sheet mask",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1988/e6321bb0-9f79-41fd-a9f5-a588448e2102.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Love the cooling gel texture!",
-      "Gives a noticeable glow after one use.",
-      "Pricey but worth it."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1988/e6321bb0-9f79-41fd-a9f5-a588448e2102.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 6,
@@ -98,14 +68,8 @@
     "rating": 4.6,
     "stock": 45,
     "brand": "Manyo Factory",
-    "mainCategory": "skincare",
     "category": "cleansing oil",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1006/4d20a316-8368-47e0-a5d3-2c7884861463.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Melts my makeup effortlessly.",
-      "Gentle even on my sensitive eyes.",
-      "Rinses off cleanly, no residue!"
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1006/4d20a316-8368-47e0-a5d3-2c7884861463.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 7,
@@ -116,14 +80,8 @@
     "rating": 4.7,
     "stock": 35,
     "brand": "Torriden",
-    "mainCategory": "skincare",
     "category": "serum",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1974/e8a52989-d1e4-4f16-9a19-75ed07f7d03e.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Soaks in quickly and feels amazing.",
-      "Perfect for layering in my routine.",
-      "A must-have if your skin is dehydrated."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1974/e8a52989-d1e4-4f16-9a19-75ed07f7d03e.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 8,
@@ -134,14 +92,8 @@
     "rating": 4.5,
     "stock": 50,
     "brand": "SKINFOOD",
-    "mainCategory": "skincare",
     "category": "toner pad",
-    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/929132/XVaX5ZDqTHEJmaS1WWcw.jpg",
-    "comments": [
-      "Great for a quick refresh!",
-      "Pads are super saturated and cooling.",
-      "Calms my redness really well."
-    ]
+    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/929132/XVaX5ZDqTHEJmaS1WWcw.jpg"
   },
   {
     "id": 9,
@@ -152,14 +104,8 @@
     "rating": 4.6,
     "stock": 30,
     "brand": "Goodal",
-    "mainCategory": "skincare",
     "category": "eye cream",
-    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/07/1799/ac1e3ad0-f311-47c7-97cc-240cd4edb7a0.jpg",
-    "comments": [
-      "Brightened my dark circles in a week!",
-      "Non-sticky and absorbs fast.",
-      "Love the citrusy scent."
-    ]
+    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/07/1799/ac1e3ad0-f311-47c7-97cc-240cd4edb7a0.jpg"
   },
   {
     "id": 10,
@@ -169,15 +115,8 @@
     "discountPercentage": 10,
     "rating": 4.5,
     "stock": 25,
-    "brand": "Etude",
-    "mainCategory": "makeup",
     "category": "lip tint",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1529/2dfcfc9c-070d-4a45-92c4-474ddba202e4.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Color is vivid but not overpowering.",
-      "Feels like water on the lips.",
-      "Great budget-friendly tint!"
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1529/2dfcfc9c-070d-4a45-92c4-474ddba202e4.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 11,
@@ -187,15 +126,8 @@
     "discountPercentage": 12,
     "rating": 4.7,
     "stock": 18,
-    "brand": "COSRX",
-    "mainCategory": "skincare",
     "category": "essence",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1476/2eefb622-e235-4ac7-b5c0-6da4eaec3fcb.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "My skin texture improved a lot.",
-      "Snail mucin works wonders for acne marks.",
-      "A little sticky but super effective."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1476/2eefb622-e235-4ac7-b5c0-6da4eaec3fcb.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 12,
@@ -205,15 +137,8 @@
     "discountPercentage": 8,
     "rating": 4.3,
     "stock": 30,
-    "brand": "Innisfree",
-    "mainCategory": "skincare",
     "category": "face powder",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1560/9b869634-cb00-4a75-bf40-6c53c8111b3d.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Keeps my skin matte all day.",
-      "Perfect for touch-ups on humid days.",
-      "Can be a bit drying if overused."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1560/9b869634-cb00-4a75-bf40-6c53c8111b3d.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 13,
@@ -223,15 +148,8 @@
     "discountPercentage": 15,
     "rating": 4.8,
     "stock": 20,
-    "brand": "Laneige",
-    "mainCategory": "skincare",
     "category": "mask",
-    "image": "https://skintheory.co.za/wp-content/uploads/2022/11/LANEIGE-Water-Sleeping-Mask-EX-70ml-Reel-1.jpg",
-    "comments": [
-      "Woke up with glowing skin!",
-      "Best overnight mask I’ve ever used.",
-      "Smells lovely and very moisturizing."
-    ]
+    "image": "https://skintheory.co.za/wp-content/uploads/2022/11/LANEIGE-Water-Sleeping-Mask-EX-70ml-Reel-1.jpg"
   },
   {
     "id": 14,
@@ -241,15 +159,8 @@
     "discountPercentage": 10,
     "rating": 4.4,
     "stock": 22,
-    "brand": "Banila Co",
-    "mainCategory": "skincare",
     "category": "cleanser",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1603/9902e52a-08ab-4216-8de1-721417b5aac5.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Removes waterproof makeup so easily.",
-      "Love the balm texture, melts right in.",
-      "Leaves no oily residue."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1603/9902e52a-08ab-4216-8de1-721417b5aac5.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 15,
@@ -259,15 +170,8 @@
     "discountPercentage": 7,
     "rating": 4.3,
     "stock": 28,
-    "brand": "Peripera",
-    "mainCategory": "makeup",
     "category": "lip tint",
-    "image": "https://cdn-image.oliveyoung.com/prdtImg/1223/164af252-5ce5-416f-a848-9669612c3627.jpg?RS=1500x1500&AR=0&SF=webp&QT=80",
-    "comments": [
-      "Very airy and comfortable on the lips.",
-      "Gorgeous colors, especially #5!",
-      "Transfers a bit but still lasts."
-    ]
+    "image": "https://cdn-image.oliveyoung.com/prdtImg/1223/164af252-5ce5-416f-a848-9669612c3627.jpg?RS=1500x1500&AR=0&SF=webp&QT=80"
   },
   {
     "id": 16,
@@ -277,15 +181,8 @@
     "discountPercentage": 6,
     "rating": 4.2,
     "stock": 26,
-    "brand": "The Face Shop",
-    "mainCategory": "skincare",
     "category": "cleanser",
-    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/1125057/ktj7978MJqxg4mB2FLVNdg.jpg",
-    "comments": [
-      "Cleans without stripping my skin.",
-      "Smells so nice and fresh.",
-      "Helps brighten my dull complexion."
-    ]
+    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/1125057/ktj7978MJqxg4mB2FLVNdg.jpg"
   },
   {
     "id": 17,
@@ -295,15 +192,8 @@
     "discountPercentage": 5,
     "rating": 4.4,
     "stock": 40,
-    "brand": "Nature Republic",
-    "mainCategory": "skincare",
     "category": "moisturizer",
-    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/3390/aloe-vera3.png",
-    "comments": [
-      "I use this for everything—face, body, hair!",
-      "Super soothing after shaving.",
-      "Love the cooling effect!"
-    ]
+    "image": "https://cdn-irec.r-99.com/sites/default/files/product-images/3390/aloe-vera3.png"
   },
   {
     "id": 18,
@@ -313,15 +203,8 @@
     "discountPercentage": 6,
     "rating": 4.4,
     "stock": 24,
-    "brand": "Isntree",
-    "mainCategory": "skincare",
     "category": "toner",
-    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/1c/3100/cfcbc620-6d15-422b-a14c-4aba2eda4e6b.jpg",
-    "comments": [
-      "Absorbs so well and feels silky.",
-      "Great as a first toner step.",
-      "Helped reduce my dry patches."
-    ]
+    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/1c/3100/cfcbc620-6d15-422b-a14c-4aba2eda4e6b.jpg"
   },
   {
     "id": 19,
@@ -331,14 +214,7 @@
     "discountPercentage": 14,
     "rating": 4.6,
     "stock": 14,
-    "brand": "Beauty of Joseon",
-    "mainCategory": "skincare",
     "category": "serum",
-    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/10/1040/2796c5fa-335b-4881-b60a-09613f856579.jpg",
-    "comments": [
-      "Really brightens and calms my skin.",
-      "Nice natural glow without greasiness.",
-      "Perfect texture—not too thick or runny."
-    ]
+    "image": "https://eu-central-1.linodeobjects.com/glasskin/media/attachments/10/1040/2796c5fa-335b-4881-b60a-09613f856579.jpg"
   }
 ]
