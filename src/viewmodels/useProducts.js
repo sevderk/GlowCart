@@ -1,5 +1,3 @@
-// src/viewmodels/useProducts.js
-
 import { useEffect, useState } from 'react';
 import { fetchProducts } from '../models/productService'; 
 
