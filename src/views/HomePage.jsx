@@ -20,7 +20,6 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
   const query = useMemo(() => new URLSearchParams(location.search), [location.search]);
   const filter = useMemo(() => query.get('filter'), [query]);
 
-  // Create separate refs for each slider
   const ourPicksRef = useRef(null);
   const bestSellersRef = useRef(null);
   const newRef = useRef(null);
@@ -155,7 +154,6 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
           </div>
         )}
 
-        {/* Sliders only shown on homepage without query */}
         {location.pathname === '/' && !location.search && (
           <>
             {renderModernSlider('✨ Our Picks', [2, 3, 7, 10, 15], ourPicksRef)}
@@ -163,8 +161,7 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
             {renderModernSlider('🆕 New', [5, 6, 11, 12, 13], newRef)}
           </>
         )}
-
-        {/* Filtered product list (e.g. /?filter=skincare) */}
+        
         {location.search && (
           <>
             <div className="flex justify-end mb-4">
