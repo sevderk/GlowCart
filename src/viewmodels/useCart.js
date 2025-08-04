@@ -1,5 +1,3 @@
-// src/viewmodels/useCart.js
-
 import { toast } from 'react-toastify';
 
 export const useCart = (cart, setCart) => {
