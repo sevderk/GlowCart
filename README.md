@@ -22,23 +22,14 @@
 ## 📁 Folder Structure
 
 src/
-|
 - assets/ # Static images (icons, banners, logo)
-|
 - components/ # Reusable UI components
-|
 - constants/ # Color palette and global constants
-|
 - models/ # API calls and data fetch logic
-|
 - utils/ # Filter/sort helpers
-|
 - viewmodels/ # State management logic (favorites)
-|
 - views/ # Page components (Home, Cart, etc.)
-|
 - App.jsx # Main app and routing
-|
 - index.css # Tailwind + custom styles
 
 
