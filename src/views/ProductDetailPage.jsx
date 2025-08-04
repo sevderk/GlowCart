@@ -1,4 +1,3 @@
-// src/views/ProductDetailPage.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { fetchProducts } from '../models/productService';
