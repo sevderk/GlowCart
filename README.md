@@ -23,23 +23,23 @@
 
 src/
 |
-|── assets/ # Static images (icons, banners, logo)
+- assets/ # Static images (icons, banners, logo)
 |
-|── components/ # Reusable UI components
+- components/ # Reusable UI components
 |
-|── constants/ # Color palette and global constants
+- constants/ # Color palette and global constants
 |
-|── models/ # API calls and data fetch logic
+- models/ # API calls and data fetch logic
 |
-|── utils/ # Filter/sort helpers
+- utils/ # Filter/sort helpers
 |
-|── viewmodels/ # State management logic (favorites)
+- viewmodels/ # State management logic (favorites)
 |
-|── views/ # Page components (Home, Cart, etc.)
+- views/ # Page components (Home, Cart, etc.)
 |
-|── App.jsx # Main app and routing
+- App.jsx # Main app and routing
 |
-|── index.css # Tailwind + custom styles
+- index.css # Tailwind + custom styles
 
 
 ---
