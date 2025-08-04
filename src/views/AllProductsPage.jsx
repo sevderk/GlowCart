@@ -1,5 +1,3 @@
-// src/views/AllProductsPage.jsx
-
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../components/ProductCard';
 import { fetchProducts } from '../models/productService';
