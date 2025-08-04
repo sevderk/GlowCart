@@ -22,23 +22,24 @@
 ## 📁 Folder Structure
 
 src/
-├── assets/ # Static images (icons, banners, logo)
 |
-├── components/ # Reusable UI components
+|── assets/ # Static images (icons, banners, logo)
 |
-├── constants/ # Color palette and global constants
+|── components/ # Reusable UI components
 |
-├── models/ # API calls and data fetch logic
+|── constants/ # Color palette and global constants
 |
-├── utils/ # Filter/sort helpers
+|── models/ # API calls and data fetch logic
 |
-├── viewmodels/ # State management logic (favorites)
+|── utils/ # Filter/sort helpers
 |
-├── views/ # Page components (Home, Cart, etc.)
+|── viewmodels/ # State management logic (favorites)
 |
-├── App.jsx # Main app and routing
+|── views/ # Page components (Home, Cart, etc.)
 |
-└── index.css # Tailwind + custom styles
+|── App.jsx # Main app and routing
+|
+|── index.css # Tailwind + custom styles
 
 
 ---
@@ -52,10 +53,14 @@ src/
 - **JavaScript ES6+**
 - *(Optional in future: Redux for global state)*
 
+---
+
 ## 🔑 Environment Notes
 No real backend — product data is fetched from a mock API or static file (dummyjson.com or similar).
 
 No authentication logic — login/signup/profile are UI-only for now.
+
+---
 
 ## 📌 To Do / Planned Features
 - 🧠 Redux integration for global state (cart, favorites)
@@ -67,6 +72,8 @@ No authentication logic — login/signup/profile are UI-only for now.
 - 🔐 Backend integration with real user auth
 
 - 📱 Mobile-first improvements
+
+---
 
 ## 🙋‍♀️ Author
 Made with 💖 by @sevderk
@@ -85,10 +92,6 @@ Made with 💖 by @sevderk
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235803" src="https://github.com/user-attachments/assets/5916ee93-65ed-4b01-96d8-0f3421eabeea" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-03 235754" src="https://github.com/user-attachments/assets/6bdc23d8-a04b-4bfb-98b5-03c154718dcb" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-04 000807" src="https://github.com/user-attachments/assets/f3c53530-e617-476c-9269-8877a98c3639" />
-
-
-## 📃 License
-This project is open-source and available under the MIT License.
 
 ---
 
