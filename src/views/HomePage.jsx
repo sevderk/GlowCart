@@ -1,5 +1,3 @@
-// src/views/HomePage.jsx
-
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
