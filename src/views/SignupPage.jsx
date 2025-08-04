@@ -1,4 +1,3 @@
-// src/views/SignupPage.jsx
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { COLORS } from '../constants/colors';
