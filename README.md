@@ -86,9 +86,7 @@ Made with 💖 by @sevderk
 
 ---
 
-## 📦 Getting Started
-
-### 1. Clone the repository
+## 📦 Installation
 
 ```bash
 git clone https://github.com/sevderk/GlowCart.git
@@ -96,4 +94,18 @@ cd GlowCart
 npm install
 npm install axios
 npm run dev
+```
 
+#### ⚠️ Requirements
+- Node.js (v16+ recommended): https://nodejs.org
+- Git: https://git-scm.com
+
+#### 🌐 View in Browser
+- After running npm run dev, open your browser and go to:
+- http://localhost:5173
+- Or check the terminal output for the exact port (might vary).
+
+#### 📝 Notes
+- This project uses Vite for development.
+- If npm run dev doesn't work, try:
+- npm install vite --save-dev
