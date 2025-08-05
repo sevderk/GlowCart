@@ -108,4 +108,7 @@ npm run dev
 #### 📝 Notes
 - This project uses Vite for development.
 - If npm run dev doesn't work, try:
-- npm install vite --save-dev
+
+```bash 
+npm install vite --save-dev
+```
