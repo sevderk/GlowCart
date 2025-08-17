@@ -2,7 +2,7 @@
 
 # 🌟 GlowCart
 
-**GlowCart** is a modern, visually appealing e-commerce platform focused on beauty and cosmetics. Built with **React**, the project provides a smooth shopping experience with features like favorites, filtering, sorting, and a responsive UI. GlowCart emphasizes an elegant and feminine design using vibrant tones like hot pink (`#ff0099`) and lavender (`#b266ff`).
+**GlowCart** is a modern, visually appealing e-commerce platform focused on beauty and cosmetics. Built with **React**, the project provides a smooth shopping experience with features like favorites, filtering, sorting. GlowCart emphasizes an elegant and feminine design using vibrant tones like hot pink (`#ff0099`) and lavender (`#b266ff`).
 
 🔗 **Live Demo:** [https://glow-cart-sevderks-projects.vercel.app](https://glow-cart-sevderks-projects.vercel.app)
 
@@ -15,7 +15,6 @@
 - 🛒 **Shopping Cart** with quantity & stock control
 - 🔍 **Search functionality**
 - 👤 **Login/Signup/Profile Pages**
-- 📱 **Fully responsive** design
 - 🎨 **Modern UI/UX** with banners, sliders, and animated navigation
 - ❤️ Designed with custom color palette (GlowCart Style)
 
