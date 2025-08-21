@@ -1,76 +1,58 @@
-<img width="1510" height="317" alt="image" src="https://github.com/user-attachments/assets/71b980cc-536a-4480-8b57-cac61811024c" />
+<img width="1898" height="527" alt="image" src="https://github.com/user-attachments/assets/8c0ec530-61a7-447c-b4f9-4fee2737eca6" />
 
 # 🌟 GlowCart
 
-**GlowCart** is a modern, visually appealing e-commerce platform focused on beauty and cosmetics. Built with **React**, the project provides a smooth shopping experience with features like favorites, filtering, sorting. GlowCart emphasizes an elegant and feminine design using vibrant tones like hot pink (`#ff0099`) and lavender (`#b266ff`).
+**GlowCart** is a modern, visually appealing e-commerce platform focused on beauty and cosmetics. Built with **React**, the project provides a smooth shopping experience with features like favorites, filtering, sorting, and a global search. GlowCart emphasizes an elegant and feminine design using vibrant tones like hot pink (`#ff0099`) and lavender (`#b266ff`).
 
-🔗 **Live Demo:** [https://glow-cart-sevderks-projects.vercel.app](https://glow-cart-sevderks-projects.vercel.app)
+🔗 **Live Demo:** [https://glow-cart-three.vercel.app](https://glow-cart-three.vercel.app)
 
 ---
 
 ## ✨ Features
 
-- 🛍️ **Product Listings** with filter & sort options
-- 💖 **Favorites system** (like/wishlist)
-- 🛒 **Shopping Cart** with quantity & stock control
-- 🔍 **Search functionality**
-- 👤 **Login/Signup/Profile Pages**
-- 🎨 **Modern UI/UX** with banners, sliders, and animated navigation
-- ❤️ Designed with custom color palette (GlowCart Style)
-
----
-
-## 📁 Folder Structure
-
-src/
-- assets/ # Static images (icons, banners, logo)
-- components/ # Reusable UI components
-- constants/ # Color palette and global constants
-- models/ # API calls and data fetch logic
-- utils/ # Filter/sort helpers
-- viewmodels/ # State management logic (favorites)
-- views/ # Page components (Home, Cart, etc.)
-- App.jsx # Main app and routing
-- index.css # Tailwind + custom styles
-
+- 🛍️ **Product Listings** with advanced filter & sort options  
+- 💖 **Favorites system** (wishlist/like)  
+- 🛒 **Shopping Cart** with quantity, stock control, and item management  
+- 🔍 **Global Search functionality** (works across all pages)  
+- 🖼️ **Hero Banner + Sale Banner** with responsive design  
+- 🎞️ **Modern Sliders** (Our Picks, Best Sellers, New) on the homepage  
+- 👤 **Login / Signup / Profile Pages** (UI-based)  
+- 🎨 **Modern UI/UX** with a custom GlowCart color palette  
+- 📱 **Responsive design** (mobile-friendly grid & layout)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **React 19** with functional components and hooks
-- **Vite** for fast development server and optimized build tool
-- **React Router DOM** for navigation
-- **Axios** for fetching JSON data from GitHub repository
-- **TailwindCSS** for styling
-- **React Icons** for iconography
-- **JavaScript**
-- **Vercel** for hosting & CI/CD 
-- *(Optional in future: Redux for global state)*
+- **React 19** with functional components and hooks  
+- **Vite** for fast development server and optimized build tool  
+- **React Router DOM** for navigation  
+- **Axios** for fetching JSON product data from GitHub repository  
+- **TailwindCSS** for styling    
+- **JavaScript (ES6+)**  
+- **Vercel** for hosting & CI/CD  
+- *(Optional in future: Redux for global state management)*  
 
 ---
 
 ## 🔑 Environment Notes
-No dedicated backend — product data is stored in a JSON file within the GitHub repository and fetched via Axios.
 
-No authentication logic — login, signup, and profile are currently UI-only.
+- No dedicated backend — product data is stored in a JSON file within the GitHub repository and fetched via Axios.  
+- No authentication logic — login, signup, and profile are currently UI-only.  
 
 ---
 
-## 📌 To Do / Planned Features
-- 🧠 Redux integration for global state (cart, favorites)
+## 📌 Planned Features
 
-- 🛒 Checkout flow
-
-- 🌐 Internationalization (i18n)
-
-- 🔐 Backend integration with real user auth
-
-- 📱 Mobile-first improvements
+- 🧠 Redux integration for cart & favorites global state  
+- 🛒 Checkout flow integration  
+- 🌐 Internationalization (i18n) support  
+- 🔐 Backend integration with real user authentication   
 
 ---
 
 ## 🙋‍♀️ Author
+
 Made with 💖 by [@sevderk](https://github.com/sevderk)
 
 ---
