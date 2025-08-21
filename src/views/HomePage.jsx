@@ -5,11 +5,11 @@ import { fetchProducts } from '../models/productService';
 import { COLORS } from '../constants/colors';
 import HeroBanner from '../assets/heroBanner.png';
 import SaleBanner from '../assets/saleBanner.png';
-import { filterProductsByQuery, filterProductsBySearchTerm } from '../utils/filterProducts';
+import { filterProductsByQuery } from '../utils/filterProducts';
 import { sortProducts } from '../utils/sortProducts';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => {
+const HomePage = ({ cart, setCart, favoritesVM, searchTerm }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [addedMessage, setAddedMessage] = useState('');
@@ -35,10 +35,9 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
 
   const filteredProducts = useMemo(() => {
     let filtered = filterProductsByQuery(products, query);
-    filtered = filterProductsBySearchTerm(filtered, searchTerm);
     filtered = sortProducts(filtered, sortOption);
     return filtered;
-  }, [products, query, searchTerm, sortOption]);
+  }, [products, query, sortOption]);
 
   const handleAddToCart = (product) => {
     setCart((prev) => {
@@ -85,6 +84,7 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
           <button
             onClick={() => scroll('left')}
             className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full hidden group-hover:block"
+            style={{ color: COLORS.primary }}
           >
             <FaChevronLeft />
           </button>
@@ -93,7 +93,7 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
             className="flex overflow-x-auto gap-6 scrollbar-hide scroll-smooth"
           >
             {sectionProducts.map((product) => (
-              <div key={product.id} className="flex-shrink-0 w-64">
+              <div key={product.id} className="flex-shrink-0 w-40 sm:w-56 md:w-64">
                 <ProductCard
                   product={product}
                   onAddtoCart={() => handleAddToCart(product)}
@@ -106,6 +106,7 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
           <button
             onClick={() => scroll('right')}
             className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full hidden group-hover:block"
+            style={{ color: COLORS.primary }}
           >
             <FaChevronRight />
           </button>
@@ -117,22 +118,25 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
   return (
     <div className="min-h-screen" style={{ backgroundColor: COLORS.lightBg }}>
       <div className="max-w-7xl mx-auto px-6">
-        {location.pathname === '/' && !location.search && (
-          <div className="mb-10">
+        
+        {location.pathname === '/' && !location.search && searchTerm === '' && (
+          <div className="mb-8">
+            <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] aspect-[21/9] sm:aspect-[32/9] overflow-hidden rounded-none sm:rounded-2xl">
             <img
-              src={HeroBanner}
-              alt="GlowCart Banner"
-              className="w-full object-cover rounded-2xl"
+            src={HeroBanner}
+            alt="GlowCart Banner"
+            className="absolute inset-0 h-full w-full object-cover object-[50%_44%]"
             />
-          </div>
-        )}
+            </div>
+            </div>
+          )}
 
         {filter === 'sale' && (
-          <div className="mb-10">
+          <div className="mb-8 -mx-6 sm:mx-0">
             <img
               src={SaleBanner}
               alt="Sale Banner"
-              className="w-full object-cover rounded-2xl"
+              className="w-full h-auto rounded-xl object-cover"
             />
           </div>
         )}
@@ -154,15 +158,15 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
           </div>
         )}
 
-        {location.pathname === '/' && !location.search && (
+        {location.pathname === '/' && !location.search && searchTerm === '' && (
           <>
             {renderModernSlider('✨ Our Picks', [2, 3, 7, 10, 15], ourPicksRef)}
             {renderModernSlider('🔥 Best Sellers', [1, 4, 8, 9, 11], bestSellersRef)}
             {renderModernSlider('🆕 New', [5, 6, 11, 12, 13], newRef)}
           </>
         )}
-        
-        {location.search && (
+
+        {location.search && searchTerm.trim() === '' && (
           <>
             <div className="flex justify-end mb-4">
               <select
@@ -189,7 +193,7 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm, setSearchTerm }) => 
             ) : filteredProducts.length === 0 ? (
               <p className="text-center" style={{ color: COLORS.textGray }}>No products found.</p>
             ) : (
-              <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-4">
                 {filteredProducts.map((product) => (
                   <ProductCard
                     key={product.id}

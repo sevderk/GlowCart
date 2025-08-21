@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  useLocation,
 } from 'react-router-dom';
 
 import HomePage from './views/HomePage';
@@ -15,7 +16,6 @@ import Header from './components/Header';
 import BrandsPage from './views/BrandsPage';
 import ProductDetailPage from './views/ProductDetailPage';
 import AllProductsPage from './views/AllProductsPage';
-
 
 import { useFavorites } from './viewmodels/useFavorites';
 
@@ -31,65 +31,87 @@ function App() {
     }
   }, []);
 
-  const favoritesVM = useFavorites(); // no longer passing isLoggedIn
+  const favoritesVM = useFavorites();
 
   return (
     <Router>
-      <Header 
-      isLoggedIn={isLoggedIn} 
-      setIsLoggedIn={setIsLoggedIn} 
-      cart={cart} 
-      setCart={setCart} 
-      searchTerm={searchTerm}
-      setSearchTerm={setSearchTerm}/>
-      <Routes>
-        <Route
-          path="/"
-          element={<HomePage cart={cart} setCart={setCart} favoritesVM={favoritesVM} searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>}
-        />
-        <Route
-          path="/cart"
-          element={<CartPage cart={cart} setCart={setCart} />}
-        />
-        <Route
-          path="/favorites"
-          element={<FavoritesPage cart={cart} setCart={setCart} favoritesVM={favoritesVM} />}
-        />
-        <Route
-          path="/login"
-          element={<LoginPage setIsLoggedIn={setIsLoggedIn} />}
-        />
-        <Route
-          path="/signup"
-          element={<SignupPage />}
-        />
-        <Route
-          path="/profile"
-          element={<ProfilePage  setIsLoggedIn={setIsLoggedIn}/>}
-        /> 
-        <Route 
-        path="/brands" 
-        element={<BrandsPage />} 
-        />
-        <Route
-        path="/product/:id"
-        element={
-        <ProductDetailPage
+      <Header
+        isLoggedIn={isLoggedIn}
+        setIsLoggedIn={setIsLoggedIn}
         cart={cart}
         setCart={setCart}
-        favoritesVM={favoritesVM} />}
-        />
-        <Route
-        path="/all-products"
-        element={
-        <AllProductsPage
-        cart={cart}
-        setCart={setCart}
-        favoritesVM={favoritesVM}
-        searchTerm={searchTerm} />}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
       />
 
-      </Routes>
+      {searchTerm.trim() !== "" ? (
+        <AllProductsPage
+          cart={cart}
+          setCart={setCart}
+          favoritesVM={favoritesVM}
+          searchTerm={searchTerm}
+        />
+      ) : (
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <HomePage
+                cart={cart}
+                setCart={setCart}
+                favoritesVM={favoritesVM}
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+              />
+            }
+          />
+          <Route
+            path="/cart"
+            element={<CartPage cart={cart} setCart={setCart} />}
+          />
+          <Route
+            path="/favorites"
+            element={<FavoritesPage cart={cart} setCart={setCart} favoritesVM={favoritesVM} />}
+          />
+          <Route
+            path="/login"
+            element={<LoginPage setIsLoggedIn={setIsLoggedIn} />}
+          />
+          <Route
+            path="/signup"
+            element={<SignupPage />}
+          />
+          <Route
+            path="/profile"
+            element={<ProfilePage setIsLoggedIn={setIsLoggedIn} />}
+          />
+          <Route
+            path="/brands"
+            element={<BrandsPage />}
+          />
+          <Route
+            path="/product/:id"
+            element={
+              <ProductDetailPage
+                cart={cart}
+                setCart={setCart}
+                favoritesVM={favoritesVM}
+              />
+            }
+          />
+          <Route
+            path="/all-products"
+            element={
+              <AllProductsPage
+                cart={cart}
+                setCart={setCart}
+                favoritesVM={favoritesVM}
+                searchTerm={searchTerm}
+              />
+            }
+          />
+        </Routes>
+      )}
     </Router>
   );
 }

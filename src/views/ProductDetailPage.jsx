@@ -34,10 +34,18 @@ const ProductDetailPage = ({ cart, setCart, favoritesVM }) => {
     setTimeout(() => setButtonState('default'), 2500);
   };
 
+  const handlePrimaryAction = () => {
+    if (buttonState === 'goToCart') {
+      navigate('/cart');
+    } else {
+      handleAddToCart();
+    }
+  };
+
   const handleToggleFavorite = () => {
     if (!product) return;
-    const isFav = isFavorite(product.id);
-    isFav ? removeFromFavorites(product.id) : addToFavorites(product);
+    const fav = isFavorite(product.id);
+    fav ? removeFromFavorites(product.id) : addToFavorites(product);
   };
 
   if (!product) {
@@ -45,11 +53,9 @@ const ProductDetailPage = ({ cart, setCart, favoritesVM }) => {
   }
 
   const buttonText =
-    buttonState === 'default'
-      ? 'Add to Cart'
-      : buttonState === 'added'
-      ? 'Added'
-      : 'Go to Cart';
+    buttonState === 'default' ? 'Add to Cart'
+    : buttonState === 'added' ? 'Added'
+    : 'Go to Cart';
 
   const buttonStyle =
     buttonState === 'default'
@@ -59,62 +65,96 @@ const ProductDetailPage = ({ cart, setCart, favoritesVM }) => {
       : 'bg-blue-600 hover:bg-blue-700';
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10">
-      {/* Product Card */}
-      <div className="bg-white shadow-lg rounded-xl p-8 flex flex-col md:flex-row gap-10 border border-pink-100">
-        {/* Product Image */}
-        <div className="md:w-1/2 flex items-center justify-center">
-          <img
-            src={product.image}
-            alt={product.title}
-            className="w-full max-h-[500px] object-contain rounded-lg"
-          />
-        </div>
-
-        {/* Product Details */}
-        <div className="md:w-1/2 space-y-4">
-          <h1 className="text-3xl font-bold text-gray-900">{product.title}</h1>
-          <p className="text-sm uppercase text-gray-500">
-            {product.brand} — {product.mainCategory}, {product.category}
-          </p>
-          <p className="text-gray-700">{product.description}</p>
-
-          <div className="flex items-center gap-4 mt-2">
-            <span className="text-2xl font-bold text-gray-900">${product.price}</span>
-            {product.discountPercentage > 0 && (
-              <span className="text-pink-600 font-medium">
-                Save {product.discountPercentage}%
-              </span>
-            )}
+    <div className="max-w-6xl mx-auto px-6 py-10 pb-24 md:pb-10">
+      <div
+        className="bg-white shadow-lg rounded-xl p-6 sm:p-8 border border-pink-100"
+        style={{ backgroundColor: '#fff' }}
+      >
+        <div className="grid gap-6 md:gap-10 md:grid-cols-2">
+          <div className="w-full">
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-lg bg-white">
+              <img
+                src={product.image}
+                alt={product.title}
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
 
-          <div className="flex items-center gap-4 pt-6">
-            <button
-              onClick={handleAddToCart}
-              className={`text-white font-semibold rounded-lg px-5 py-2.5 transition ${buttonStyle}`}
-            >
-              {buttonText}
-            </button>
+          <div className="space-y-4">
+            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">
+              {product.title}
+            </h1>
 
-            <button
-              onClick={handleToggleFavorite}
-              className="text-xl transition-colors"
-              title="Toggle Favorite"
-              style={{
-                color: isFavorite(product.id)
-                ? '#e60080'
-                : COLORS.textLightGray,
-              }}
-            >
-              {isFavorite(product.id) ? <FaHeart /> : <FaRegHeart />}
-            </button>
+            <p className="text-xs sm:text-sm uppercase text-gray-500">
+              {product.brand} — {product.mainCategory}, {product.category}
+            </p>
+
+            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+              {product.description}
+            </p>
+
+            <div className="flex items-center gap-4 mt-2">
+              <span className="text-xl sm:text-2xl font-bold text-gray-900">
+                ${product.price}
+              </span>
+              {product.discountPercentage > 0 && (
+                <span className="text-pink-600 font-medium">
+                  Save {product.discountPercentage}%
+                </span>
+              )}
+            </div>
+
+            <div className="hidden md:flex items-center gap-4 pt-4">
+              <button
+                onClick={handlePrimaryAction}
+                className={`text-white font-semibold rounded-lg px-5 py-2.5 transition ${buttonStyle}`}
+              >
+                {buttonText}
+              </button>
+
+              <button
+                onClick={handleToggleFavorite}
+                className="text-xl transition-colors"
+                title="Toggle Favorite"
+                style={{
+                  color: isFavorite(product.id) ? '#e60080' : COLORS.textLightGray,
+                }}
+                aria-label="Toggle Favorite"
+              >
+                {isFavorite(product.id) ? <FaHeart /> : <FaRegHeart />}
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Comments Section */}
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-white/95 backdrop-blur px-4 py-3 md:hidden">
+        <div className="mx-auto max-w-6xl flex items-center justify-between gap-3">
+          <button
+            onClick={handleToggleFavorite}
+            className="flex items-center justify-center rounded-md border px-4 py-2"
+            style={{
+              borderColor: COLORS.borderLight,
+              color: isFavorite(product.id) ? '#e60080' : COLORS.textDarkGray,
+            }}
+            aria-label="Toggle Favorite"
+            title="Toggle Favorite"
+          >
+            {isFavorite(product.id) ? <FaHeart /> : <FaRegHeart />}
+          </button>
+
+          <button
+            onClick={handlePrimaryAction}
+            className={`flex-1 text-white font-semibold rounded-md px-5 py-2.5 transition ${buttonStyle}`}
+          >
+            {buttonText}
+          </button>
+        </div>
+      </div>
+
       <div className="mt-12">
-        <h2 className="text-xl font-semibold mb-6 text-gray-800">
+        <h2 className="text-lg sm:text-xl font-semibold mb-6 text-gray-800">
           ⭐ {product.rating} (3 reviews)
         </h2>
 

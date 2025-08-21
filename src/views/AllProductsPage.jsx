@@ -71,7 +71,7 @@ const AllProductsPage = ({ cart, setCart, favoritesVM, searchTerm }) => {
         ) : filtered.length === 0 ? (
           <p className="text-center" style={{ color: COLORS.textGray }}>No products found.</p>
         ) : (
-          <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-4">
             {filtered.map((product) => (
               <ProductCard
                 key={product.id}
