@@ -132,11 +132,11 @@ const HomePage = ({ cart, setCart, favoritesVM, searchTerm }) => {
           )}
 
         {filter === 'sale' && (
-          <div className="mb-8 -mx-6 sm:mx-0">
+          <div className="mb-8 mt-1 -mx-6 sm:mx-0">
             <img
               src={SaleBanner}
               alt="Sale Banner"
-              className="w-full h-auto rounded-xl object-cover"
+              className="w-full h-auto object-cover"
             />
           </div>
         )}

@@ -38,7 +38,7 @@ const Header = ({ cart, isLoggedIn, searchTerm, setSearchTerm }) => {
           />
         </Link>
 
-        <nav className="hidden md:flex items-center gap-6 text-sm md:text-base font-medium text-gray-800 dark:text-gray-100">
+        <nav className="hidden md:flex items-center gap-6 text-sm md:text-base font-medium text-gray-800">
           <NavLinks />
         </nav>
 
@@ -94,10 +94,10 @@ const Header = ({ cart, isLoggedIn, searchTerm, setSearchTerm }) => {
       </div>
 
       {open && (
-        <div className="md:hidden border-t bg-white/95 dark:bg-gray-900/95 backdrop-blur">
+        <div className="md:hidden border-t bg-white/95 backdrop-blur">
           <div className="px-4 py-3 flex flex-col gap-3">
             <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-            <div className="flex flex-col gap-2 text-gray-800 dark:text-gray-100">
+            <div className="flex flex-col gap-2 text-gray-800">
               <NavLinks onClick={() => setOpen(false)} />
             </div>
           </div>
