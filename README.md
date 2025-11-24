@@ -4,7 +4,7 @@
 
 **GlowCart** is a modern, visually appealing e-commerce platform focused on beauty and cosmetics. Built with **React**, the project provides a smooth shopping experience with features like favorites, filtering, sorting, and a global search. GlowCart emphasizes an elegant and feminine design using vibrant tones like hot pink (`#ff0099`) and lavender (`#b266ff`).
 
-🔗 **Live Demo:** [https://glow-cart-three.vercel.app](https://glow-cart-three.vercel.app)
+🔗 **Live Demo:** [https://glowcart-srk.netlify.app](https://glowcart-srk.netlify.app)
 
 ---
 
